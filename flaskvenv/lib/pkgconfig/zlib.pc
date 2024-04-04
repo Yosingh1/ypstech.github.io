@@ -1,0 +1,13 @@
+prefix=/Users/yogendrasingh/Library/CloudStorage/OneDrive-Personal/Webdevlopment_with_flask_Project/flaskvenv
+exec_prefix=/Users/yogendrasingh/Library/CloudStorage/OneDrive-Personal/Webdevlopment_with_flask_Project/flaskvenv
+libdir=/Users/yogendrasingh/Library/CloudStorage/OneDrive-Personal/Webdevlopment_with_flask_Project/flaskvenv/lib
+sharedlibdir=/Users/yogendrasingh/Library/CloudStorage/OneDrive-Personal/Webdevlopment_with_flask_Project/flaskvenv/lib
+includedir=/Users/yogendrasingh/Library/CloudStorage/OneDrive-Personal/Webdevlopment_with_flask_Project/flaskvenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

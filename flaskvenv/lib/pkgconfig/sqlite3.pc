@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/Users/yogendrasingh/Library/CloudStorage/OneDrive-Personal/Webdevlopment_with_flask_Project/flaskvenv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: SQLite
+Description: SQL database engine
+Version: 3.33.0
+Libs: -L${libdir} -lsqlite3
+Libs.private: -lz 
+Cflags: -I${includedir}
